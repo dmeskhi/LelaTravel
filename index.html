@@ -6,204 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LelaTravel</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,700" rel="stylesheet">
-    <!--<link rel="stylesheet" type="text/css" href="css/reset.css" />-->
-    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     </style>
 </head>
 
 <body>
-    <!-- HEADER -->
+    <!-- START HEADER -->
     <header id="main-header">
-        <div class="container">
-            <div class="row end-sm end-md end-lg">
-                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                    <!-- LOGO -->
-                    <h1><span class="primary-text">Lela</span>Travel</h1>
-                </div>
-                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-                    <!-- MAIN MENU -->
-                    <nav id="navbar">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">Tours</a></li>
-                            <li><a href="tour.html">About</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+        <div class="flex-container">
+            
+            <h1><img src="images/logo.png" alt="Lela Travel Logo"></h1>
+            <!-- MENU -->
+            <nav class="menu">
+                <ul class="active">
+                    <li><a href="" class="current">Home</a>
+                        <li><a href="">Tours</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                </ul>
+                
+            </nav>
+            <a class="toggle-nav" href="#">&#9776;</a>
         </div>
-    </header>
-    <!-- HERO PAGE -->
-    <section id="hero">
-        <div class="container">
-            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1>Discover Georgia With <span class="primary-text">Lela</span>Travel</h1>
-                    <h3>Don't Listen To What They Say, Go See!</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- TOURS -->
-    <section id="tours">
-        <div class="container">
-            <div class="row center-xs center-sm center-md center-lg">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>Our Tours</h2>
-                    <!-- TOUR IMAGES 1 -->
-                    <div class="row center-xs center-sm center-md center-lg">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="card">
-                                <img src="images/culture_new.jpg" alt="Avatar" style="width:100%">
-                                <div class="card-container">
-                                    <h4><b>Cultural Tour</b></h4>
-                                    <p>Colorful Georgia</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="card">
-                                <img src="images/bsea_new.jpg" alt="Avatar" style="width:100%">
-                                <div class="card-container">
-                                    <h4><b>Black Sea Tour</b></h4>
-                                    <p>Pearl of Georgia</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="card">
-                                <img src="images/hiking_new.jpg" alt="Avatar" style="width:100%">
-                                <div class="card-container">
-                                    <h4><b>Hiking Tour</b></h4>
-                                    <p>Architect & Engineer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                    	&nbsp;
-                    </div>
-                    
-
-                    <!-- TOUR IMAGES 2 -->
-                    <div class="row center-xs center-sm center-md center-lg">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="card">
-                                <img src="images/ski_new.jpg" alt="Avatar" style="width:100%">
-                                <div class="card-container">
-                                    <h4><b>Skiing Tour</b></h4>
-                                    <p>Architect & Engineer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="card">
-                                <img src="images/adventure_new.jpg" alt="Avatar" style="width:100%">
-                                <div class="card-container">
-                                    <h4><b>Adventure Tour</b></h4>
-                                    <p>Mysteries of Caucasus</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="card">
-                                <img src="images/wine_new.jpg" alt="Avatar" style="width:100%">
-                                <div class="card-container">
-                                    <h4><b>Wine tour</b></h4>
-                                    <p>Wine & Wonders in Kakhet</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ABOUT -->
-    <section id="about">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    				<img src="images/about.jpg" alt="About us">
-    			</div>
-    			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    				<h2>Who We Are</h2>
-    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic earum modi repudiandae eos dolorem et tenetur magni recusandae soluta iste perspiciatis, nesciunt. Itaque, eum, sapiente provident odio accusantium alias rem?</p>
-    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic earum modi repudiandae eos dolorem et tenetur magni recusandae soluta iste perspiciatis, nesciunt. Itaque, eum, sapiente provident odio accusantium alias rem?</p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-    <!-- FEATURES -->
-    <section id="features">
-    	<div class="container">
-    		<div class="row center-xs center-sm center-md center-lg">
-    			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    				<h2>Why LelaTravel</h2>
-    				<div class="row">
-    					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-    						<h4>Best Prices</h4>
-    						<i class="fa fa-usd" aria-hidden="true"></i>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates pariatur dolorum esse.</p>
-    					</div>
-    					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-    						<h4>Safe & Secure</h4>
-    						<i class="fa fa-lock" aria-hidden="true"></i>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates pariatur dolorum esse.</p>
-    					</div>
-    					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-    						<h4>Best Travel Agents</h4>
-    						<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates pariatur dolorum esse.</p>
-    					</div>
-    					<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-    						<h4>Travel Guidelines</h4>
-    						<i class="fa fa-book" aria-hidden="true"></i>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptates pariatur dolorum esse.</p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-    <!-- TESTIMONIALS -->
-    <section id="testimonials">
-        <div class="container">
-            <div class="row center-xs center-sm center-md center-lg">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>What Clients Say About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, ipsam debitis vero et aspernatur saepe maiores minima corporis dolor rerum non, ullam iusto nam vel ipsa porro odio error placeat!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- GALLERY -->
-    <section id="gallery">
-        <div class="container">
-            <div class="row center-xs center-sm center-md center-lg">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>Tour Gallery</h2>
-                    <!-- GALLERY IMAGES 1 -->
-                    <div class="row center-xs center-sm center-md center-lg">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    
-                                <img src="images/culture_new.jpg" alt="Avatar" style="width:100%">
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="images/bsea_new.jpg" alt="Avatar" style="width:100%">
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="images/hiking_new.jpg" alt="Avatar" style="width:100%">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </header>    
+    <!-- END HEADER -->
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -15,7 +15,6 @@
     <!-- START HEADER -->
     <header id="main-header">
         <div class="flex-container">
-            
             <h1><img src="images/logo.png" alt="Lela Travel Logo"></h1>
             <!-- MENU -->
             <nav class="menu">
@@ -26,13 +25,122 @@
                         <li><a href="">Gallery</a></li>
                         <li><a href="">Contact</a></li>
                 </ul>
-                
             </nav>
             <a class="toggle-nav" href="#">&#9776;</a>
         </div>
-    </header>    
+    </header>
     <!-- END HEADER -->
-    
+    <!-- BANNER -->
+    <section id="banner">
+        <div class="banner-flex-container">
+            <h2>Discover</h2>
+            <h1>Georgia</h1>
+            <h3>Don’t Listen To Stories, Tell The Stories</h3>
+            <!-- TABS -->
+            <div class="tabs">
+                <ul class="tab-links">
+                    <li class="active"><a href="#tab1"><span class="primary-text"><i class="fa fa-plane" aria-hidden="true"></i></span>&nbsp;&nbsp;<span class="secondary-text">Flights</span></a></li>
+                    <li><a href="#tab2"><span class="primary-text"><i class="fa fa-bed" aria-hidden="true"></i></span>&nbsp;&nbsp;<span class="secondary-text">Hotels</span></a></li>
+                    <li><a href="#tab3"><span class="primary-text"><i class="fa fa-car" aria-hidden="true"></i></span>&nbsp;&nbsp;<span class="secondary-text">Car Rent</span></a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab1" class="tab active">
+                        <!-- FORMS GRID FLIGHT -->
+                        <div class="form-container">
+                            <form>
+                                <p>
+                                    <input type="text" name="from" placeholder="From" />
+                                </p>
+                                <p>
+                                    <input type="text" name="to" placeholder="To" />
+                                </p>
+                                <p>
+                                    <input type="text" name="depart" placeholder="Depart" />
+                                </p>
+                                <p>
+                                    <input type="text" name="return" placeholder="Return" />
+                                </p>
+                                <p>
+                                    <select name="adults">
+                                        <option value="">Adults</option>
+                                        <option value="adult">1</option>
+                                        <option value="adult">2</option>
+                                        <option value="adult">3</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <select name="child">
+                                        <option value="">Children</option>
+                                        <option value="child">0</option>
+                                        <option value="child">1</option>
+                                        <option value="child">2</option>
+                                        <option value="child">3</option>
+                                    </select>
+                                </p>
+                                <p class="full">
+                                    <button>
+                                        Search
+                                    </button>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab">
+                        <!-- FORMS GRID HOTELS -->
+                        <div class="form-container">
+                            <form>
+                                <p>
+                                    <input type="text" name="where to" placeholder="Where To" />
+                                </p>
+                                <p>
+                                    <input type="text" name="check in" placeholder="Check-in" />
+                                </p>
+                                <p>
+                                    <input type="text" name="check out" placeholder="Check-out" />
+                                </p>
+                                <p>
+                                    <select name="adults">
+                                        <option value="">Rooms</option>
+                                        <option value="room">1</option>
+                                        <option value="room">2</option>
+                                        <option value="room">3</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <select name="adults">
+                                        <option value="">Adults</option>
+                                        <option value="adult">1</option>
+                                        <option value="adult">2</option>
+                                        <option value="adult">3</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <select name="child">
+                                        <option value="">Children</option>
+                                        <option value="child">0</option>
+                                        <option value="child">1</option>
+                                        <option value="child">2</option>
+                                        <option value="child">3</option>
+                                    </select>
+                                </p>
+                                <p class="full">
+                                    <button>
+                                        Search
+                                    </button>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab">
+                        <p>Tab #3 content goes here!</p>
+                        <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END TABS -->
+    </section>
+    <!-- END BANNER -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>

@@ -17,3 +17,16 @@ jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
 e.preventDefault();
 });
 });
+//Drop-off
+$(document).ready(function(){
+	$(".form-different").hide();
+    $("#same").click(function(){
+        $(".form-same").show();
+        $(".form-different").hide();
+    });
+    $("#different").click(function(){
+        $(".form-different").show();
+        $(".form-same").hide();
+        
+    });
+});

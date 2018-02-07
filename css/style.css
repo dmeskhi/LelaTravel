@@ -59,6 +59,7 @@ h6 {
     position: fixed;
     background: #000;
     border-bottom: #fbac30 2px solid;
+    z-index: 1;
 }
 
 .menu ul {
@@ -688,7 +689,7 @@ li.active a:hover {
 .vtourimg {
     background-image: url('../images/vtour.jpg');
     min-height: 300px;
-    position: relative;
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -799,6 +800,99 @@ closeBtn:focus {
     text-decoration: none;
     cursor: pointer;
 }
+/* TESTIMONIALS */
+#testimonials {
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+.testi-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    align-items: center;
+}
+.testi-container h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+/* Slider CSS */
+
+.slider {
+    max-width: 100%;
+    margin: 0px auto 30px auto;
+    background: #f8f8f8;
+}
+
+.slide-viewer {
+    position: relative;
+    /* needed for IE7 */
+    overflow: hidden;
+    height: 1000px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.testi-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.slide {
+    width: 94%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+}
+
+.slide:first-child {
+    display: block;
+}
 
 
+
+/********** BUTTONS **********/
+
+.slide-buttons {
+    text-align: center;
+}
+
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.slide-btn.active,
+.slide-btn:hover {
+    color: #fbac30;
+    cursor: pointer;
+}
+@media screen and (min-width: 1050px) {
+    .slide-viewer {
+        position: relative;
+        /* needed for IE7 */
+        overflow: hidden;
+        height: 400px;
+    }
+    .testi-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 /*  */

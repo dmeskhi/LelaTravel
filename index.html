@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LelaTravel</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     </style>
@@ -424,9 +424,85 @@
         </div>
     </section>
     <!-- END TESTIMONIALS -->
+    <section id="gallery">
+        <div class="gallery-container">
+            <div>&nbsp;</div>
+            <div class="heading">
+                <h1>Tour Gallery</h1>
+                <hr align="center" class="style" />
+            </div>
+            <div>&nbsp;</div>
+            <div class="pics">
+                <img src="images/london.jpg" onclick="opengModal();currentSlide(1)" style="width:100%;" alt="London, England">
+            </div>
+             <div class="pics">
+                <img src="images/rome.jpg" onclick="opengModal();currentSlide(2)" style="width:100%;" alt="Rome, Italy">
+            </div>
+             <div class="pics">
+                <img src="images/venice.jpg" onclick="opengModal();currentSlide(3)" style="width:100%;" alt="Venice, Italy">
+            </div>
+            <div class="pics">
+                <img src="images/prague.jpg" onclick="opengModal();currentSlide(4)" style="width:100%;" alt="Prague, Czech Republic">
+            </div>
+             <div class="pics">
+                <img src="images/athens.jpg" onclick="opengModal();currentSlide(5)" style="width:100%;" alt="Athens, Greece">
+            </div>
+             <div class="pics">
+                <img src="images/paris.jpg" onclick="opengModal();currentSlide(6)" style="width:100%;" alt="Paris, France">
+            </div>
+
+           
+
+            <div class="pics">
+                <img src="images/blank.jpg" style="width:100%;" alt="">
+            </div>
+            <div class="pics">
+                <img src="images/blank.jpg" style="width:100%;" alt="">
+            </div>
+            <div class="pics">
+                <img src="images/blank.jpg" style="width:100%;" alt="">
+            </div>
+
+             <!-- The Modal/Lightbox -->
+<div id="myModal" class="gmodal">
+  <span class="close cursor" onclick="closegModal()">&times;</span>
+  <div class="gmodal-content">
+
+    <div class="mySlides">
+      <img src="images/london.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/rome.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/venice.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/prague.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/athens.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="images/paris.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    </section>
+    
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 
 </html>
